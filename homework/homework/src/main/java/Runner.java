@@ -6,11 +6,14 @@ public class Runner {
 //        System.out.println(calculator.subtract(5, 1));
 //        System.out.println(calculator.multiply(2, 5));
 //        System.out.println(calculator.divide(10, 5));
-        WaterBottle waterBottle = new WaterBottle(100);
-        System.out.println(waterBottle.getVolume());
-        System.out.println(waterBottle.drink());
-        System.out.println(waterBottle.empty());
-        System.out.println(waterBottle.fill());
+//        WaterBottle waterBottle = new WaterBottle(100);
+//        System.out.println(waterBottle.getVolume());
+//        System.out.println(waterBottle.drink());
+//        System.out.println(waterBottle.empty());
+//        System.out.println(waterBottle.fill());
+        Printer printer = new Printer(100);
+        System.out.println(printer.getPaper());
+        System.out.println(printer.print(25, 1));
     }
 
 }
