@@ -8,6 +8,3 @@ public class Runner {
     }
 }
 
-//        mars = Planet("Mars", 908973)
-//        print(f"{mars.get_name()} is {mars.get_size()}")
-//        mars.explode()

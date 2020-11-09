@@ -27,11 +27,8 @@ public class Planet {
     }
 
     public String explode() {
-        return String.format("Boom! % has exploded", this.name);
+        return String.format("Boom! %s has exploded", this.name);
 
     }
 }
 
-//        mars = Planet("Mars", 908973)
-//        print(f"{mars.get_name()} is {mars.get_size()}")
-//        mars.explode()
